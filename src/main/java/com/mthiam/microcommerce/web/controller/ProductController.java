@@ -10,6 +10,12 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+
+/**
+ * @author M.THIAM
+ * @version 1.0.0
+ */
+
 @RestController
 @Api(value="Ecommerce product controller")
 public class ProductController {

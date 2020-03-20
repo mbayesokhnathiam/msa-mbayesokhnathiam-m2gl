@@ -4,6 +4,11 @@ package com.mthiam.microcommerce.model;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
+/**
+ * @author M.THIAM
+ * @version 1.0.0
+ */
+
 @ApiModel(description = "All details about the product.")
 public class Product {
 

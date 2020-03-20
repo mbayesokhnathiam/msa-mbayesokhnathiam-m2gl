@@ -7,8 +7,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * @author M.THIAM
+ * @version 1.0.0
+ */
+
 @Repository
 public class ProductDaoI implements ProductDao {
+
+
     public static List<Product> products=new ArrayList<>();
     static {
         products.add(new Product(1, new String("Ordinateur portable"), 350));
